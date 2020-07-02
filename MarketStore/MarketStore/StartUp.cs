@@ -8,7 +8,7 @@
         static void Main()
         {
             //With the examples below I aim to cover all the posibilities.
-            //i've decided not to put mocking data.
+           
 
             //Example 1
             var bronzeCard = new BronzeCard("Daniel Ivanov",0, 150);
