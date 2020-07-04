@@ -1,6 +1,5 @@
 ﻿namespace MarketStore.Cards
 {
-    using Microsoft.VisualBasic.CompilerServices;
     using System;
     using System.Text;
 
@@ -12,7 +11,7 @@
 
         public ClubCard(string fullname, decimal turnover, decimal purchaseValue)
         {
-            Fullname = fullname;
+            this.Fullname = fullname;
             this.Turnover = turnover;
             this.PurchaseValue = purchaseValue;
         }
